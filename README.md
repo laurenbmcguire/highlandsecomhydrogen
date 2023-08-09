@@ -1,8 +1,5 @@
 Web application built for Church of the Highlands as a showcase project.
 
-[Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
-[Get familiar with Remix](https://remix.run/docs/en/v1)
-
 ## What's included
 
 - Remix
@@ -40,3 +37,7 @@ git clone https://github.com/laurenbmcguire/highlandsecomhydrogen.git \
 && npm install \
 && npx shopify hydrogen link --storefront "Highlandsecomhydrogen" \
 && npm run dev
+
+
+[Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
+[Get familiar with Remix](https://remix.run/docs/en/v1)
