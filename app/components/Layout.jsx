@@ -13,6 +13,7 @@ import {
   IconBag,
   IconSearch,
   Heading,
+  Hero,
   IconMenu,
   IconCaret,
   Section,
