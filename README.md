@@ -16,26 +16,27 @@ Web application built for Church of the Highlands as a showcase project.
 - Tailwind CSS (via PostCSS)
 - Full-featured setup of components and routes
 
-## Getting started
+## Features
 
-**Requirements:**
+- Liquid Hydrogen Product Management
+- Inventory Tracking
+- Customer Interaction and Support
+- Advanced Reporting Tools
+- Seamless Integration with Shopify
 
-- Node.js version 16.14.0 or higher
+## Prerequisites
 
-```bash
-npm create @shopify/hydrogen@latest -- --template demo-store
-```
+- Node.js (>= 12.x)
+- NPM (>= 7.x)
+- Shopify Developer Account
 
-Remember to update `.env` with your shop's domain and Storefront API token!
+## Installation
 
-## Building for production
-
-```bash
-npm run build
-```
-
-## Local development
+You can clone and run the app using the following commands:
 
 ```bash
-npm run dev
-```
+git clone https://github.com/laurenbmcguire/highlandsecomhydrogen.git \
+&& cd highlandsecomhydrogen \
+&& npm install \
+&& npx shopify hydrogen link --storefront "Highlandsecomhydrogen" \
+&& npm run dev
